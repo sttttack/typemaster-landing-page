@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Barlow';
+    
+}
+
+#keyboard_desk,
+#keyboard_tablet {
+    display: none;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #162542;
+    margin-bottom: 24px;
+}
+
+p {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+    width: 327px;
+    height: 104px;
+    text-align: center;
+
+}
+
+.click {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 40%;
+    width: 65px;
+    height: 65px;
+    background: #F16718;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1.5rem;
+    align-items: center;
+
+}
+
+.button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 48px;
+    background: #E8EFF2;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+
+}
+
+.button1:hover {
+    background-color: #162542;
+    color: #FFFFFF;
+    
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 48px;
+    background: #F16718;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.button2:hover {
+    background-color: #FF9B62;
+    color: #FFFFFF;
+    
+}
+
+.graph_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 68px;
+    width: 100vw;
+    gap: 2rem;
+}
+
+#title_1 {
+    width: 327px;
+    height: 96px;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #162542;
+
+}
+
+#paragraph_1 {
+    width: 327px;
+    height: 78px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+
+}
+
+.button_release {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    
+}
+
+#button2 {
+    width: 150px;
+    height: 48px;
+    background: #F16718;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+#date {
+    width: 129px;
+    height: 26px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #7B8BAD;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    justify-content: space-between;
+    margin-left: -1rem;
+    padding-right: 1rem;
+    gap: 1rem;
+    overflow: hidden;
+    
+}
+
+#keyboard {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 2rem;
+    max-width: 100%;
+    border-radius: 20px;
+    
+}
+
+#phone {
+    position: relative;
+    left: -0.2rem;
+    width: 129px;
+    background: #F16718;
+    border-radius: 20px;
+    
+}
+
+#glass {
+    width: 220px;
+    border-radius: 20px;
+}
+
+.conteiners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cont1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 75px;
+    gap: 4rem;
+}
+
+#header2 {
+    width: 289px;
+    height: 108px;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #162542;
+    text-align: center;
+    
+} 
+
+#paragraph2 {
+    width: 327px;
+    height: 104px;
+    margin-bottom: 5rem;
+
+}
+
+.cont2,
+.cont3,
+.cont4,
+.cont5 {
+    padding-top: 1rem;
+    padding-bottom: 64px;
+}
+
+footer {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+    letter-spacing: 1px;
+
+}
+
+.ftr {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 96px;
+}
+
+/* Tablets Only */
+
+
+@media only screen and (min-width: 768px) {
+
+}
+
+    
